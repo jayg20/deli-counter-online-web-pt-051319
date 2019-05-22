@@ -22,8 +22,8 @@ def take_a_number(katz_deli, name)
 end
 
 def now_Serving(name)
- new_line =  line.each do |name|
-    line.pop
+puts ""
+
 
 
 
