@@ -4,7 +4,7 @@ def line
   katz_deli= []
   if katz_deli.size == 0
   puts "The line is currently empty."
-elsif:
+else
   if katz_deliz.size > 0
 katz_deli.each_wiith_index{|name, index|
   katz_deli.push("The line is currently: #{index+1}.#{name}."
@@ -21,7 +21,9 @@ def take_a_number(katz_deli, name)
   return katz_deli
 end
 
-def now_Serving
+def now_Serving(name)
+ new_line =  line.each do |name|
+    line.pop
 
 
 
