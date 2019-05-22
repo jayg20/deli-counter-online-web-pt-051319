@@ -26,6 +26,7 @@ def now_Serving(name)
   if katz_deli.size == 0
     puts "There is nobody waiting to be served!"
   else 
-   new_line = line.pop
+   katz_deli.each do |name|
+     
 end
 
