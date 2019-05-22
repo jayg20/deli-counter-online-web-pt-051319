@@ -23,8 +23,11 @@ end
 
 def now_Serving(name)
   katz_deli = []
-  if katz_deli.siz
-puts "Curently serving #{name}"
+  puts "Curently serving #{name}"
+  if katz_deli.size == 0
+    
+    
+
 
 end
 
