@@ -27,6 +27,6 @@ def now_Serving(name)
   if katz_deli.size == 0
     puts "There is nobody waiting to be served!"
   else 
-   if katz_deli.size 
+   new_line = line.pop
 end
 
