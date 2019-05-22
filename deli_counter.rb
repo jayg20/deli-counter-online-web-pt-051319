@@ -11,11 +11,11 @@ katz_deli.each_wiith_index{|name, index|
   return katz_deli
 end
 
-def take_a_number(katz_deli, name)
+def take_a_number(name, katz_deli)
   katz_deli=[]
-  katz_deli.size = katz_deli
+  katz_deli.size = number_taken
   katz_deli.each_wiith_index do |name, index|
-    katz_deli.push("Welcome #{name}You are currentl number #{counter} in line. ")
+    katz_deli.push("Welcome, #{name}. You are currentl number #{index+1} in line. ")
   end
   return katz_deli
 end
