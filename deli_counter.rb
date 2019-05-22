@@ -22,10 +22,9 @@ def take_a_number(katz_deli, name)
 end
 
 def now_Serving(name)
-puts ""
-
-
-
+puts "Curently serving #{name}"
+new_line  = line.pop
+return new_line
 
 end
 
