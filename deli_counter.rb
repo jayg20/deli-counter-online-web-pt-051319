@@ -26,8 +26,8 @@ def now_Serving(name)
   if katz_deli.size == 0
     puts "There is nobody waiting to be served!"
   else 
-   katz_deli.each do |name|
-     katz_deli= line.shift
+    if katz_delisize > 0 
+  line.shift 
      return katz_deli
 end
 
